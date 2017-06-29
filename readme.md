@@ -1,5 +1,8 @@
 ## Tooltip
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aab202fed7784b46a8ab45e94ea28db2)](https://www.codacy.com/app/accgit/tooltip?utm_source=github.com&utm_medium=referral&utm_content=css-ui/tooltip&utm_campaign=badger)
+
+
 Simple tooltip.
 
 ## Instruction
