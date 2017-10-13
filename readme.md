@@ -1,3 +1,3 @@
 ## Tooltip
 
-Simple tooltip, based on CSS UI.
+Simple tooltip.
