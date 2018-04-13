@@ -1,0 +1,96 @@
+
+/*
+    tooltip primary
+*/
+.tooltip .text.primary {
+    background-color: rgb(16, 162, 241);
+               color: white;
+}
+
+.tooltip .top.primary::after {
+    border-top-color: rgb(16, 162, 241);
+}
+
+.tooltip .bottom.primary::after {
+    border-bottom-color: rgb(16, 162, 241);
+}
+
+.tooltip .right.primary::after {
+    border-right-color: rgb(16, 162, 241);
+}
+
+.tooltip .left.primary::after {
+    border-left-color: rgb(16, 162, 241);
+}
+
+/*
+    tooltip common
+*/
+.tooltip .text.common  {
+    background-color: rgb(84, 84, 84);
+               color: white;
+}
+
+.tooltip .top.common::after {
+    border-top-color: rgb(84, 84, 84);
+}
+
+.tooltip .bottom.common::after {
+    border-bottom-color: rgb(84, 84, 84);
+}
+
+.tooltip .right.common::after {
+    border-right-color: rgb(84, 84, 84);
+}
+
+.tooltip .left.common::after {
+    border-left-color: rgb(84, 84, 84);
+}
+
+/*
+    tooltip success
+*/
+.tooltip .text.success   {
+    background-color: rgb(104, 192, 65);
+               color: white;
+}
+
+.tooltip .top.success::after {
+    border-top-color: rgb(104, 192, 65);
+}
+
+.tooltip .bottom.success::after {
+    border-bottom-color: rgb(104, 192, 65);
+}
+
+.tooltip .right.success::after {
+    border-right-color: rgb(104, 192, 65);
+}
+
+.tooltip .left.success::after {
+    border-left-color: rgb(104, 192, 65);
+}
+
+/*
+    tooltip danger
+*/
+.tooltip .text.danger   {
+    background-color: rgb(226, 67, 67);
+               color: white;
+}
+
+.tooltip .top.danger::after {
+    border-top-color: rgb(226, 67, 67);
+}
+
+.tooltip .bottom.danger::after {
+    border-bottom-color: rgb(226, 67, 67);
+}
+
+.tooltip .right.danger::after {
+    border-right-color: rgb(226, 67, 67);
+}
+
+.tooltip .left.danger::after {
+    border-left-color: rgb(226, 67, 67);
+}
