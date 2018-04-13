@@ -8,12 +8,56 @@
 	<title>CSS UI - Tooltip</title>
 
 	<!-- CSS styles -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext">
+	<link rel="stylesheet" href="https://css-ui.github.io/css/cssui.min.css">
+	<link rel="stylesheet" href="css/style.tooltip.css">
+	<style>
+		body {
+		    font-family: 'Open Sans', sans-serif;
+		}
+	</style>
 </head>
 <body>
-	<!-- container -->
-	<div class="container">
-		<a href="#" data-tooltip="Hello">Hello</a>
+	<!--
+		sample page
+	-->
+	<div class="container" style="width: 600px; padding-top: 50px;">
+		<h2>CSS UI - Tooltip</h2>
+		<div class="row">
+			<div class="six columns">
+
+				<!-- primary -->
+				<p style="color: rgb(16, 162, 241); padding-top: 25px;"><b>Primary</b></p>
+				<p><span class="tooltip">Top <span class="text primary top">Top</span></span></p>
+				<p><span class="tooltip">Bottom <span class="text primary bottom">Bottom</span></span></p>
+				<p><span class="tooltip">Left <span class="text primary left">Left</span></span></p>
+				<p><span class="tooltip">Right <span class="text primary right">Right</span></span></p>
+
+				<!-- common -->
+				<p style="color: rgb(84, 84, 84); padding-top: 25px;"><b>Common</b></p>
+				<p><span class="tooltip">Top <span class="text common top">Top</span></span></p>
+				<p><span class="tooltip">Bottom <span class="text common bottom">Bottom</span></span></p>
+				<p><span class="tooltip">Left <span class="text common left">Left</span></span></p>
+				<p><span class="tooltip">Right <span class="text common right">Right</span></span></p>
+			</div>
+			<div class="six columns">
+
+				<!-- success -->
+				<p style="color: rgb(104, 192, 65); padding-top: 25px;"><b>Success</b></p>
+				<p><span class="tooltip">Top <span class="text success top">Top</span></span></p>
+				<p><span class="tooltip">Bottom <span class="text success bottom">Bottom</span></span></p>
+				<p><span class="tooltip">Left <span class="text success left">Left</span></span></p>
+				<p><span class="tooltip">Right <span class="text success right">Right</span></span></p>
+
+				<!-- danger -->
+				<p style="color: rgb(226, 67, 67); padding-top: 25px;"><b>Danger</b></p>
+				<p><span class="tooltip">Top <span class="text danger top">Top</span></span></p>
+				<p><span class="tooltip">Bottom <span class="text danger bottom">Bottom</span></span></p>
+				<p><span class="tooltip">Left <span class="text danger left">Left</span></span></p>
+				<p><span class="tooltip">Right <span class="text danger right">Right</span></span></p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
