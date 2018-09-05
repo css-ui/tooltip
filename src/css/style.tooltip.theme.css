@@ -6,19 +6,19 @@
     color: #fff;
 }
 
-.tooltip .top.primary::after {
+.tooltip .primary.top::after {
     border-top-color: #1ba2eb;
 }
 
-.tooltip .bottom.primary::after {
+.tooltip .primary.bottom::after {
     border-bottom-color: #1ba2eb;
 }
 
-.tooltip .right.primary::after {
+.tooltip .primary.right::after {
     border-right-color: #1ba2eb;
 }
 
-.tooltip .left.primary::after {
+.tooltip .primary.left::after {
     border-left-color: #1ba2eb;
 }
 
@@ -29,19 +29,19 @@
     color: #fff;
 }
 
-.tooltip .top.common::after {
+.tooltip .common.top::after {
     border-top-color: #545454;
 }
 
-.tooltip .bottom.common::after {
+.tooltip .common.bottom::after {
     border-bottom-color: #545454;
 }
 
-.tooltip .right.common::after {
+.tooltip .common.right::after {
     border-right-color: #545454;
 }
 
-.tooltip .left.common::after {
+.tooltip .common.left::after {
     border-left-color: #545454;
 }
 
@@ -52,19 +52,19 @@
     color: #fff;
 }
 
-.tooltip .top.success::after {
+.tooltip .success.top::after {
     border-top-color: #52d064;
 }
 
-.tooltip .bottom.success::after {
+.tooltip .success.bottom::after {
     border-bottom-color: #52d064;
 }
 
-.tooltip .right.success::after {
+.tooltip .success.right::after {
     border-right-color: #52d064;
 }
 
-.tooltip .left.success::after {
+.tooltip .success.left::after {
     border-left-color: #52d064;
 }
 
@@ -75,19 +75,19 @@
     color: #a76600;
 }
 
-.tooltip .top.warning::after {
+.tooltip .warning.top::after {
     border-top-color: #ffd965;
 }
 
-.tooltip .bottom.warning::after {
+.tooltip .warning.bottom::after {
     border-bottom-color: #ffd965;
 }
 
-.tooltip .right.warning::after {
+.tooltip .warning.right::after {
     border-right-color: #ffd965;
 }
 
-.tooltip .left.warning::after {
+.tooltip .warning.left::after {
     border-left-color: #ffd965;
 }
 
@@ -98,18 +98,18 @@
     color: #fff;
 }
 
-.tooltip .top.danger::after {
+.tooltip .danger.top::after {
     border-top-color: #ff3e59;
 }
 
-.tooltip .bottom.danger::after {
+.tooltip .danger.bottom::after {
     border-bottom-color: #ff3e59;
 }
 
-.tooltip .right.danger::after {
+.tooltip .danger.right::after {
     border-right-color: #ff3e59;
 }
 
-.tooltip .left.danger::after {
+.tooltip .danger.left::after {
     border-left-color: #ff3e59;
 }
