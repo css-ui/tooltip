@@ -1,96 +1,115 @@
 
-/*
-    tooltip primary
-*/
-.tooltip .text.primary {
-    background-color: rgb(16, 162, 241);
-               color: white;
+/* tooltip primary
+   ========================================================================== */
+.tooltip span.primary {
+    background: #1ba2eb;
+    color: #fff;
 }
 
 .tooltip .top.primary::after {
-    border-top-color: rgb(16, 162, 241);
+    border-top-color: #1ba2eb;
 }
 
 .tooltip .bottom.primary::after {
-    border-bottom-color: rgb(16, 162, 241);
+    border-bottom-color: #1ba2eb;
 }
 
 .tooltip .right.primary::after {
-    border-right-color: rgb(16, 162, 241);
+    border-right-color: #1ba2eb;
 }
 
 .tooltip .left.primary::after {
-    border-left-color: rgb(16, 162, 241);
+    border-left-color: #1ba2eb;
 }
 
-/*
-    tooltip common
-*/
-.tooltip .text.common  {
-    background-color: rgb(84, 84, 84);
-               color: white;
+/* tooltip common
+   ========================================================================== */
+.tooltip span.common  {
+    background: #545454;
+    color: #fff;
 }
 
 .tooltip .top.common::after {
-    border-top-color: rgb(84, 84, 84);
+    border-top-color: #545454;
 }
 
 .tooltip .bottom.common::after {
-    border-bottom-color: rgb(84, 84, 84);
+    border-bottom-color: #545454;
 }
 
 .tooltip .right.common::after {
-    border-right-color: rgb(84, 84, 84);
+    border-right-color: #545454;
 }
 
 .tooltip .left.common::after {
-    border-left-color: rgb(84, 84, 84);
+    border-left-color: #545454;
 }
 
-/*
-    tooltip success
-*/
-.tooltip .text.success   {
-    background-color: rgb(104, 192, 65);
-               color: white;
+/* tooltip success
+   ========================================================================== */
+.tooltip span.success   {
+    background: #52d064;
+    color: #fff;
 }
 
 .tooltip .top.success::after {
-    border-top-color: rgb(104, 192, 65);
+    border-top-color: #52d064;
 }
 
 .tooltip .bottom.success::after {
-    border-bottom-color: rgb(104, 192, 65);
+    border-bottom-color: #52d064;
 }
 
 .tooltip .right.success::after {
-    border-right-color: rgb(104, 192, 65);
+    border-right-color: #52d064;
 }
 
 .tooltip .left.success::after {
-    border-left-color: rgb(104, 192, 65);
+    border-left-color: #52d064;
 }
 
-/*
-    tooltip danger
-*/
-.tooltip .text.danger   {
-    background-color: rgb(226, 67, 67);
-               color: white;
+/* tooltip warning
+   ========================================================================== */
+.tooltip span.warning   {
+    background-color: #ffd965;
+    color: #a76600;
+}
+
+.tooltip .top.warning::after {
+    border-top-color: #ffd965;
+}
+
+.tooltip .bottom.warning::after {
+    border-bottom-color: #ffd965;
+}
+
+.tooltip .right.warning::after {
+    border-right-color: #ffd965;
+}
+
+.tooltip .left.warning::after {
+    border-left-color: #ffd965;
+}
+
+/* tooltip danger
+   ========================================================================== */
+.tooltip span.danger   {
+    background-color: #ff3e59;
+    color: #fff;
 }
 
 .tooltip .top.danger::after {
-    border-top-color: rgb(226, 67, 67);
+    border-top-color: #ff3e59;
 }
 
 .tooltip .bottom.danger::after {
-    border-bottom-color: rgb(226, 67, 67);
+    border-bottom-color: #ff3e59;
 }
 
 .tooltip .right.danger::after {
-    border-right-color: rgb(226, 67, 67);
+    border-right-color: #ff3e59;
 }
 
 .tooltip .left.danger::after {
-    border-left-color: rgb(226, 67, 67);
+    border-left-color: #ff3e59;
 }
