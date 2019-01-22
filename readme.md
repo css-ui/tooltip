@@ -42,6 +42,7 @@ Set font.
 		font-family: 'Open Sans', sans-serif;
 	}
 </style>
+```
 
 Simple tooltip html.
 
