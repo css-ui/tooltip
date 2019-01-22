@@ -10,7 +10,7 @@ npm install --save css-ui-tooltip
 
 ## Demo
 
-- https://css-ui.github.io/tooltip
+- https://css-ui.github.io/tooltip/
 
 ## Quick start
 
